@@ -1,0 +1,15 @@
+{
+  "serverPort" : 5000,
+  "dbUrl" : "mongodb://localhost:27017/observer",
+  "jwtSecret" : "observer app",
+  "firebaseApiKey" : "AIzaSyCjPbyL43mmXsrVOZppaDSV2e8rJ76bmM4",
+  "firebaseAuthDomain" :"observer-1929c.firebaseapp.com",
+  "firebaseProjectId" : "observer-1929c",
+  "firebaseStorageBucket" : "gs://observer-1929c.appspot.com",
+  "firebaseMessagingSenderId" : "823414509100",
+  "firebaseAppId" : "1:823414509100:web:268e6b320c3eb293564b89",
+  "firebaseMeasurementId" : "G-S25X8E1JVP",
+  "actorsFolder" : "actors/",
+  "moviesFolder" : "movies/",
+  "videoPreviewsFolder" : "videoPreviews/"
+}

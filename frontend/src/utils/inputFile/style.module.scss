@@ -1,0 +1,15 @@
+@import "../../styles/mixins";
+
+.files {
+    display: block;
+    text-align: center;
+    @include default-button(280px, 20px, transparent, transparent, $font-size-md);
+    padding: 4px 10px;
+    border: 1px solid gray;
+    overflow: hidden;
+    color: gray;
+}
+
+input[type="file"] {
+    display: none;
+}

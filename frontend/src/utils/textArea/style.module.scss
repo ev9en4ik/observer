@@ -1,0 +1,8 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.textArea {
+    @include default-textarea($font-size-md, $white);
+    width: 345px;
+    height: 80px;
+}

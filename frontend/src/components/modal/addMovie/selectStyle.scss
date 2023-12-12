@@ -1,0 +1,42 @@
+@import '../../../styles/variables';
+
+.select {
+    &__control {
+        margin-bottom: 15px !important;
+        background-color: transparent !important;
+        border: none !important;
+        border-bottom: 1px solid $inactive-element !important;
+        box-shadow: none !important;
+        &:hover {
+            border-bottom: 1px solid $active-element !important;
+        }
+    }
+    &__menu {
+        border-radius: 15px !important;
+        background-color: $black !important;
+    }
+    &__menu-list {
+        border-radius: 5px !important;
+    }
+    &__option {
+        cursor: pointer !important;
+        border-radius: 2px !important;
+        &--is-selected {
+            background-color: #303030 !important;
+        }
+        &--is-focused {
+            background-color: #121212 !important;
+
+        }
+    }
+    &__single-value {
+        color: $white !important;
+
+    }
+    &__indicator-separator {
+        display: none !important;
+    }
+    &__indicator {
+        cursor: pointer !important;
+    }
+}

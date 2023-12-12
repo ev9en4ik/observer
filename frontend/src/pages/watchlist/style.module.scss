@@ -1,0 +1,63 @@
+.main {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    .container {
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+            padding-left: 20px;
+            .empty {
+                color: #b6b6b6;
+                font-size: 23px;
+            }
+            .card {
+                display: flex;
+
+                .image {
+                    height: 190px;
+                    margin-right: 25px;
+                }
+                .info {
+                    justify-content: center;
+                    gap: 10px;
+                    width: 550px;
+                    .title {
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                    .different {
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+                    .rating {
+                        font-size: 15px;
+                        margin-bottom: 10px;
+                        .icon {
+                            width: 14px;
+                            fill: #f1c40f;
+                            margin-right: 5px;
+                            transform: translateY(1px);
+                        }
+                    }
+                    .director {
+                        font-size: 15px;
+                        margin-bottom: 10px;
+                    }
+                    .storyline {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

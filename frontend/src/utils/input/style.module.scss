@@ -1,0 +1,5 @@
+@import "../../styles/mixins";
+
+.textInput {
+    @include default-input($font-size-md, $white);
+}

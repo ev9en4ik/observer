@@ -1,0 +1,51 @@
+@import "../../../../styles/variables";
+@import "../../../../styles/mixins";
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    .container {
+        max-width: 1124px;
+        margin: auto;
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+            .logo a {
+                display: inline;
+                color: white;
+                font-weight: 600;
+                @include reset-tag-a(32px);
+                svg {
+                    width: 20px;
+                    margin-right: 10px;
+                    fill: $white;
+                }
+            }
+            .nav {
+                display: flex;
+                gap: 8px;
+                .item a {
+                    @include reset-tag-a($font-size-lg);
+                    font-weight: 500;
+                    padding: 0.5rem;
+                }
+            }
+            .icons {
+                display: flex;
+                gap: 8px;
+                button {
+                    background: none;
+                    border: none;
+                    svg {
+                        width: 15px;
+                        fill: $white;
+                    }
+                }
+            }
+        }
+    }
+}
